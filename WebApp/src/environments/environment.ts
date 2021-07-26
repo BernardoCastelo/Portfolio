@@ -3,4 +3,6 @@ export const environment = {
 
     // AppRoutes
     homeRoute: 'Home',
+    projectsRoute: 'Projects',
+    experienceRoute: 'Experience',
 };
