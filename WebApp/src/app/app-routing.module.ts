@@ -1,14 +1,9 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { environment } from 'src/environments/environment';
-import { HomeComponent } from './components/home/home.component';
-
-const homeRoute = environment.homeRoute;
-
+import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  { path: homeRoute, component: HomeComponent },
-  { path: '', redirectTo: homeRoute, pathMatch: 'full' },
+  { path: '', pathMatch: 'full', redirectTo: '/welcome' },
+  { path: 'welcome', loadChildren: () => import('./pages/welcome/welcome.module').then(m => m.WelcomeModule) }
 ];
 
 @NgModule({
