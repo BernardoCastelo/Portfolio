@@ -2,18 +2,21 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { environment } from 'src/environments/environment';
 import { ExperienceComponent } from './pages/experience/experience.component';
-import { ProjectsComponent } from './pages/projects/projects.component';
+import { NixieComponent } from './pages/nixie/nixie.component';
+import { PhotomanagerComponent } from './pages/photomanager/photomanager.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
 
 const homeRoute = environment.homeRoute;
 const experienceRoute = environment.experienceRoute;
-const projectsRoute = environment.projectsRoute;
+const nixieRoute = environment.nixieRoute;
+const photoManagerRoute = environment.photoManagerRoute;
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: homeRoute },
   { path: homeRoute, component: WelcomeComponent },
   { path: experienceRoute, component: ExperienceComponent },
-  { path: projectsRoute, component: ProjectsComponent },
+  { path: nixieRoute, component: NixieComponent },
+  { path: photoManagerRoute, component: PhotomanagerComponent }
 ];
 
 @NgModule({

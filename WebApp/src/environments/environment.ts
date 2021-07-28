@@ -3,6 +3,7 @@ export const environment = {
 
     // AppRoutes
     homeRoute: 'Home',
-    projectsRoute: 'Projects',
     experienceRoute: 'Experience',
+    nixieRoute: 'Projects/Nixie',
+    photoManagerRoute: 'Projects/PhotoManager',
 };

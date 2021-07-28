@@ -13,8 +13,9 @@ import { IconsProviderModule } from './icons-provider.module';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { ExperienceComponent } from './pages/experience/experience.component';
-import { ProjectsComponent } from './pages/projects/projects.component';
 import { NzImageModule } from 'ng-zorro-antd/image';
+import { NixieComponent } from './pages/nixie/nixie.component';
+import { PhotomanagerComponent } from './pages/photomanager/photomanager.component';
 
 registerLocaleData(en);
 
@@ -22,7 +23,8 @@ registerLocaleData(en);
   declarations: [
     AppComponent,
     ExperienceComponent,
-    ProjectsComponent,
+    NixieComponent,
+    PhotomanagerComponent,
   ],
   imports: [
     BrowserModule,
