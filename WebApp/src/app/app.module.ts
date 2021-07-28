@@ -23,6 +23,7 @@ import { ExperienceComponent } from './pages/experience/experience.component';
 import { NixieComponent } from './pages/nixie/nixie.component';
 import { PhotomanagerComponent } from './pages/photomanager/photomanager.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { NzTagModule } from 'ng-zorro-antd/tag';
 
 registerLocaleData(en);
 
@@ -50,7 +51,8 @@ registerLocaleData(en);
     NzTimelineModule,
     NzAvatarModule,
     NzDividerModule,
-    NzTypographyModule
+    NzTypographyModule,
+    NzTagModule
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent],
