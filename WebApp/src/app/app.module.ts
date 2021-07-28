@@ -18,7 +18,6 @@ import { AppComponent } from './app.component';
 import { IconsProviderModule } from './icons-provider.module';
 import { AlterComponent } from './pages/experience/alter/alter.component';
 import { AnkixComponent } from './pages/experience/ankix/ankix.component';
-import { BaseExperienceComponent } from './pages/experience/base-experience/base-experience.component';
 import { BeeComponent } from './pages/experience/bee/bee.component';
 import { ExperienceComponent } from './pages/experience/experience.component';
 import { NixieComponent } from './pages/nixie/nixie.component';
@@ -34,7 +33,6 @@ registerLocaleData(en);
     NixieComponent,
     PhotomanagerComponent,
     PortfolioComponent,
-    BaseExperienceComponent,
     BeeComponent,
     AlterComponent,
     AnkixComponent,
