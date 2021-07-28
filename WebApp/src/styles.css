@@ -20,6 +20,10 @@ body {
   margin-right: 10px;
 }
 
+.mb-cards {
+  margin-bottom: 10px;
+}
+
 .display-flex {
   display: flex;
 }
