@@ -4,3 +4,16 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.experience-title {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.experience-item-ml {
+  margin-right: 10px;
+}
+
+.display-flex {
+  display: flex;
+}
