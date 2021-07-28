@@ -16,6 +16,7 @@ import { ExperienceComponent } from './pages/experience/experience.component';
 import { NzImageModule } from 'ng-zorro-antd/image';
 import { NixieComponent } from './pages/nixie/nixie.component';
 import { PhotomanagerComponent } from './pages/photomanager/photomanager.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 
 registerLocaleData(en);
 
@@ -25,6 +26,7 @@ registerLocaleData(en);
     ExperienceComponent,
     NixieComponent,
     PhotomanagerComponent,
+    PortfolioComponent,
   ],
   imports: [
     BrowserModule,

@@ -6,4 +6,5 @@ export const environment = {
     experienceRoute: 'Experience',
     nixieRoute: 'Projects/Nixie',
     photoManagerRoute: 'Projects/PhotoManager',
+    porfolioRoute: 'Projects/Portfolio'
 };
