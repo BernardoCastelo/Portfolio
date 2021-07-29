@@ -26,6 +26,7 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { NzTagModule } from 'ng-zorro-antd/tag';
 import { IntroComponent } from './pages/intro/intro.component';
 import { AcademicComponent } from './pages/academic/academic.component';
+import { NzPopoverModule } from 'ng-zorro-antd/popover';
 
 registerLocaleData(en);
 
@@ -56,7 +57,8 @@ registerLocaleData(en);
     NzAvatarModule,
     NzDividerModule,
     NzTypographyModule,
-    NzTagModule
+    NzTagModule,
+    NzPopoverModule
   ],
   providers: [{ provide: NZ_I18N, useValue: en_US }],
   bootstrap: [AppComponent],
