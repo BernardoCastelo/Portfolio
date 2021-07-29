@@ -2,5 +2,10 @@ export const environment = {
   production: true,
 
   // AppRoutes
-  home: 'Home',
+  homeRoute: 'AboutMe',
+  academicRoute: 'Academic',
+  experienceRoute: 'Experience',
+  nixieRoute: 'Projects/Nixie',
+  photoManagerRoute: 'Projects/PhotoManager',
+  porfolioRoute: 'Projects/Portfolio'
 };

@@ -24,7 +24,8 @@ import { NixieComponent } from './pages/nixie/nixie.component';
 import { PhotomanagerComponent } from './pages/photomanager/photomanager.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { NzTagModule } from 'ng-zorro-antd/tag';
-import { WelcomeComponent } from './pages/welcome/welcome.component';
+import { IntroComponent } from './pages/intro/intro.component';
+import { AcademicComponent } from './pages/academic/academic.component';
 
 registerLocaleData(en);
 
@@ -38,7 +39,8 @@ registerLocaleData(en);
     BeeComponent,
     AlterComponent,
     AnkixComponent,
-    WelcomeComponent
+    IntroComponent,
+    AcademicComponent
   ],
   imports: [
     BrowserModule,

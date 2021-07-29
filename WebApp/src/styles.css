@@ -11,6 +11,10 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
+.academic-title {
+  align-items: center;
+}
+
 .experience-title {
   align-items: center;
   margin-bottom: 20px;
@@ -18,6 +22,10 @@ body {
 
 .experience-item-ml {
   margin-right: 10px;
+}
+
+.experience-item-text-ml {
+  margin-right: 7px;
 }
 
 .mb-cards {
@@ -31,4 +39,16 @@ body {
 .techstack-div {
   margin-top: -20px;
   margin-bottom: 20px;
+}
+
+.width-50-pc {
+  width: 50%;
+}
+
+.width-60-pc {
+  width: 60%;
+}
+
+.pl-50-px {
+  padding-left: 50px;
 }
