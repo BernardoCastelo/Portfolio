@@ -1,22 +1,25 @@
 <nz-layout class="app-layout">
-  <nz-sider class="menu-sidebar" nzCollapsible nzWidth="256px" nzBreakpoint="md" [(nzCollapsed)]="isCollapsed" [nzTrigger]="null">
+  <nz-sider class="menu-sidebar" nzCollapsible nzWidth="256px" nzBreakpoint="md" [nzTrigger]="null">
     <div class="sidebar-logo">
       <a href=" " target="_blank">
-        <img src="https://ng.ant.design/assets/img/logo.svg" alt="logo" />
+        <img nz-image nzSrc="/assets/me.png" alt=" " />
         <h1>Portfolio</h1>
       </a>
     </div>
-    <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
+    <ul nz-menu nzTheme="dark" nzMode="inline">
       <li nz-menu-item nzMatchRouter>
+        <i nz-icon nzType="user" nzTheme="outline" class="menu-item-mr"></i>
         <a routerLink="{{environment.homeRoute}}">About me</a>
       </li>
       <li nz-menu-item nzMatchRouter>
+        <i nz-icon nzType="read" nzTheme="outline" class="menu-item-mr"></i>
         <a routerLink="{{environment.academicRoute}}">Academic</a>
       </li>
       <li nz-menu-item nzMatchRouter>
+        <i nz-icon nzType="solution" nzTheme="outline" class="menu-item-mr"></i>
         <a routerLink="{{environment.experienceRoute}}">Experience</a>
       </li>
-      <li nz-submenu nzTitle="Projects">
+      <li nz-submenu nzTitle="Projects" nzIcon="project">
         <ul>
             <li nz-menu-item nzMatchRouter>
               <a routerLink="{{environment.nixieRoute}}">Nixie Tube</a>
@@ -30,19 +33,21 @@
         </ul>
       </li>
     </ul>
+    <div class="display-flex" style="align-content: flex-end; height: 70vh; padding-left: 20px; padding-right: 20px;">
+      <a href="https://github.com/BernardoCastelo" target="_blank" class="link-icons"><i nz-icon nzType="github" nzTheme="fill"></i></a>
+      <a href="https://www.linkedin.com/in/bcastelo/" target="_blank" class="link-icons"><i nz-icon nzType="linkedin" nzTheme="fill"></i></a>
+      <a href="mailto: bernardo.castelo@gmail.com" target="_blank" class="link-icons"><i nz-icon nzType="mail" nzTheme="fill"></i></a>
+      <a href="https://500px.com/p/soupcan?view=photos" target="_blank" class="link-icons"><i nz-icon nzType="camera" nzTheme="fill"></i></a>
+    </div>
   </nz-sider>
   <nz-layout>
-    <nz-header>
-      <div class="app-header">
-        <span class="header-trigger" (click)="isCollapsed = !isCollapsed">
-          <i class="trigger" nz-icon [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'"></i>
-        </span>
-      </div>
-    </nz-header>
     <nz-content>
       <div class="inner-content">
         <router-outlet></router-outlet>
       </div>
     </nz-content>
+    <nz-footer>
+      Bernardo Castelo, 2021
+    </nz-footer>
   </nz-layout>
 </nz-layout>

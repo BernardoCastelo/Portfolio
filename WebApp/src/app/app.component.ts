@@ -7,6 +7,5 @@ import { environment } from 'src/environments/environment';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  isCollapsed = false;
   environment = environment;
 }
