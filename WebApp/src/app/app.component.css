@@ -55,8 +55,8 @@ nz-content {
 .inner-content {
   padding: 24px;
   background: #fff;
-  height: 95%;
-  overflow-y: scroll; 
+  height: 100%;
+  overflow-y: scroll;
   overflow-x: hidden;
 }
 
@@ -77,4 +77,8 @@ nz-content {
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.ant-layout-content {
+  margin-bottom: 0px;
 }

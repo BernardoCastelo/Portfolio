@@ -27,6 +27,7 @@ import { NzTagModule } from 'ng-zorro-antd/tag';
 import { IntroComponent } from './pages/intro/intro.component';
 import { AcademicComponent } from './pages/academic/academic.component';
 import { NzPopoverModule } from 'ng-zorro-antd/popover';
+import { EquusComponent } from './pages/experience/equus/equus.component';
 
 registerLocaleData(en);
 
@@ -41,7 +42,8 @@ registerLocaleData(en);
     AlterComponent,
     AnkixComponent,
     IntroComponent,
-    AcademicComponent
+    AcademicComponent,
+    EquusComponent
   ],
   imports: [
     BrowserModule,
