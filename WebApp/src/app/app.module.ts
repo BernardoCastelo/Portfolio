@@ -1,4 +1,4 @@
-import { registerLocaleData } from '@angular/common';
+import { CommonModule, registerLocaleData } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import en from '@angular/common/locales/en';
 import { NgModule } from '@angular/core';
@@ -28,6 +28,7 @@ import { IntroComponent } from './pages/intro/intro.component';
 import { AcademicComponent } from './pages/academic/academic.component';
 import { NzPopoverModule } from 'ng-zorro-antd/popover';
 import { EquusComponent } from './pages/experience/equus/equus.component';
+import { TimelineComponent } from './components/alter/timeline.component';
 
 registerLocaleData(en);
 
@@ -43,9 +44,11 @@ registerLocaleData(en);
     AnkixComponent,
     IntroComponent,
     AcademicComponent,
-    EquusComponent
+    EquusComponent,
+    TimelineComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,

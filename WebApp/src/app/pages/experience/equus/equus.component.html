@@ -1,25 +1,35 @@
 <div class="display-flex experience-title">
-  <nz-avatar [nzSize]="64" nzSrc="/Portfolio/assets/equus.png"></nz-avatar>
+  <nz-avatar [nzSize]="64" nzSrc="/assets/equus.png"></nz-avatar>
   <h4 nz-typography>Equus Software</h4>
 </div>
 
 <nz-timeline>
   <nz-timeline-item>
     <div class="display-flex">
-      <nz-avatar [nzSize]="24" nzSrc="/Portfolio/assets/NEC.png" class="experience-item-ml"></nz-avatar>
-      <h6 nz-typography>Full Stack Developer</h6>
+      <nz-avatar [nzSize]="24" nzSrc="/assets/equus.png" class="experience-item-ml"></nz-avatar>
+      <h6 nz-typography>Fullstack Developer &#64; AssignmentPro</h6>
     </div>
-    <div class="display-flex">
-      <i nz-icon nzType="calendar" nzTheme="twotone" class="experience-item-ml"></i>
-      <p nz-typography> November 2021 </p>
-    </div>
-
+    <app-timeline [start]="date1" [end]="date2"></app-timeline>
     <p nz-typography>
       <i nz-icon nzType="right-circle" nzTheme="twotone" class="experience-item-text-ml"></i>
       Development of multiple improvements on Equus' main cash-cow solution - AssignmentPro. <br>
       Responsable for analizing, developing, and testing stories and tasks.
     </p>
-
+  </nz-timeline-item>
+  <nz-timeline-item>
+    <div class="display-flex">
+      <nz-avatar [nzSize]="24" nzSrc="/assets/workia.png" class="experience-item-ml"></nz-avatar>
+      <h6 nz-typography>Fullstack Developer &#64; Workia</h6>
+    </div>
+    <app-timeline [start]="date2"></app-timeline>
+    <p nz-typography>
+      <i nz-icon nzType="right-circle" nzTheme="twotone" class="experience-item-text-ml"></i>
+      Worked in the development of a new product from the ground up (multiple web pages, whole features).
+      <br>Implemented a role based authentication and authorization system for the whole application.
+      <br>Implemented a configurable one-time-multi-login feature for sharing specific pages with non users.
+      <br>Is the team's frontend knowledge reference.
+      <br>Played a critical role in the architecture design and in proposing/discussing technical solutions to tackle various challenges.
+    </p>
   </nz-timeline-item>
 </nz-timeline>
 

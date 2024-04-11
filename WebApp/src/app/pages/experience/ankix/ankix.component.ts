@@ -12,4 +12,7 @@ export class AnkixComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  date1 = new Date('2020-12-01');
+  date2 = new Date('2021-11-01');
+
 }

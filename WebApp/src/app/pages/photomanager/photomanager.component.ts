@@ -12,4 +12,6 @@ export class PhotomanagerComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  date1 = new Date('2020-01-01');
+
 }

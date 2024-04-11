@@ -12,4 +12,6 @@ export class NixieComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  date1 = new Date('2018-01-01');
+
 }

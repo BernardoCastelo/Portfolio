@@ -1,19 +1,15 @@
 <div class="display-flex experience-title">
-  <nz-avatar [nzSize]="64" nzSrc="/Portfolio/assets/ankix.png"></nz-avatar>
+  <nz-avatar [nzSize]="64" nzSrc="/assets/ankix.png"></nz-avatar>
   <h4 nz-typography>Ankix</h4>
 </div>
 
 <nz-timeline>
   <nz-timeline-item>
     <div class="display-flex">
-      <nz-avatar [nzSize]="24" nzSrc="/Portfolio/assets/NEC.png" class="experience-item-ml"></nz-avatar>
-      <h6 nz-typography>Backend developer @ NEC</h6>
+      <nz-avatar [nzSize]="24" nzSrc="/assets/NEC.png" class="experience-item-ml"></nz-avatar>
+      <h6 nz-typography>Backend developer &#64; NEC</h6>
     </div>
-    <div class="display-flex">
-      <i nz-icon nzType="calendar" nzTheme="twotone" class="experience-item-ml"></i>
-      <p nz-typography> December 2020 - November 2021</p>
-    </div>
-
+    <app-timeline [start]="date1" [end]="date2"></app-timeline>
     <p nz-typography>
       <i nz-icon nzType="right-circle" nzTheme="twotone" class="experience-item-text-ml"></i>
       Development of a configurable finite state machine in a message driven architecture, with significant emphasis on

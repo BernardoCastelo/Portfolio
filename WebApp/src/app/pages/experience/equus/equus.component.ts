@@ -12,4 +12,6 @@ export class EquusComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  date1 = new Date('2021-11-01');
+  date2 = new Date('2023-03-01');
 }
