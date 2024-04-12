@@ -1,2 +1,2 @@
 # Portfolio
-https://bernardocastelo.github.io/Portfolio/AboutMe
+https://portfolio.cloudcastle.duckdns.org/AboutMe
