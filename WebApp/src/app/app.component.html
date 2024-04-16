@@ -1,5 +1,5 @@
 <nz-layout class="app-layout">
-  <nz-sider class="menu-sidebar" nzCollapsible nzWidth="256px" nzBreakpoint="md" [nzTrigger]="null">
+  <nz-sider class="menu-sidebar" nzCollapsible nzWidth="256px" nzBreakpoint="md" [nzCollapsedWidth]="0">
     <div class="sidebar-logo">
       <a href=" " target="_blank">
         <img nz-image nzSrc="/assets/me.jpg" alt=" " />
@@ -33,16 +33,6 @@
         </ul>
       </li>
     </ul>
-    <div class="display-flex link-icons-div">
-      <a href="https://github.com/BernardoCastelo" target="_blank" class="link-icons"><i nz-icon nzType="github"
-          nzTheme="fill"></i></a>
-      <a href="https://www.linkedin.com/in/bcastelo/" target="_blank" class="link-icons"><i nz-icon nzType="linkedin"
-          nzTheme="fill"></i></a>
-      <a href="mailto: bernardo.castelo@gmail.com" target="_blank" class="link-icons"><i nz-icon nzType="mail"
-          nzTheme="fill"></i></a>
-      <a href="https://500px.com/p/soupcan?view=photos" target="_blank" class="link-icons"><i nz-icon nzType="camera"
-          nzTheme="fill"></i></a>
-    </div>
   </nz-sider>
   <nz-layout>
     <nz-content>
@@ -51,7 +41,21 @@
       </div>
     </nz-content>
     <nz-footer>
-      Bernardo Castelo, 2024
+      <div class="display-flex">
+        Bernardo Castelo, 2024
+        <div class="flexColumn" style="margin-left: auto;">
+          <div style="margin-right: 1rem;">
+            Contact me:
+          </div>
+          <div style="margin-top: -2px">
+            <a href="https://github.com/BernardoCastelo" target="_blank" class="link-icons"><i nz-icon nzType="github" nzTheme="fill"></i></a>
+            <a href="https://www.linkedin.com/in/bcastelo/" target="_blank" class="link-icons"><i nz-icon nzType="linkedin" nzTheme="fill"></i></a>
+            <a href="mailto: bernardo.castelo@gmail.com" target="_blank" class="link-icons"><i nz-icon nzType="mail" nzTheme="fill"></i></a>
+            <a href="https://500px.com/p/soupcan?view=photos" target="_blank" class="link-icons"><i nz-icon nzType="camera" nzTheme="fill"></i></a>
+          </div>
+        </div>
+
+      </div>
     </nz-footer>
   </nz-layout>
 </nz-layout>

@@ -52,3 +52,9 @@ body {
 .pl-50-px {
   padding-left: 50px;
 }
+
+@media screen and (max-width: 768px) {
+  .flexColumn {
+      flex-flow: column;
+  }
+}

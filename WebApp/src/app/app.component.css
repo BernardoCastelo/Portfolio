@@ -56,7 +56,6 @@ nz-content {
   padding: 24px;
   background: #fff;
   height: 100%;
-  overflow-y: scroll;
   overflow-x: hidden;
 }
 
@@ -64,21 +63,10 @@ nz-content {
   margin-right: 10px;
 }
 
-.link-icons {
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-  align-self: flex-end;
-}
-
-.link-icons-div {
-  position: absolute;
-  bottom: 25px;
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 .ant-layout-content {
   margin-bottom: 0px;
+}
+
+.link-icons {
+  margin-right: 1rem;
 }
